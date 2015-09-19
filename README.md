@@ -8,6 +8,7 @@ Peon is designed to help manage the job application process. This app is written
 * Rails 4.2.4
 * Ember 1.13.8
 * Postgresql 9.3.9
+* Pretender (ember addon for mocking tests)
 
 ### Author
 Adam McFadden
