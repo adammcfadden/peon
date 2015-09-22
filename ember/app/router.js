@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.resource('jobs', function() {
     this.route('show', {path: ':job_id'});
+    this.route('new-job');
   });
 });
 
