@@ -9,6 +9,8 @@ Peon is designed to help manage the job application process. This app is written
 * Ember 1.13.8
 * Postgresql 9.3.9
 * Pretender (ember addon for mocking tests)
+* ember-cli-simple-auth-devise
+* ember-cli-flash
 
 ### Author
 Adam McFadden

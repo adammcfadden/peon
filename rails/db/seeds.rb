@@ -9,3 +9,5 @@ a6 = Action.create(title: 'Apply',body: 'Apply with this company',state: 'curren
 Job.create(position: 'Taxi Driver', company: 'pikop and dropov', actions: [a1])
 Job.create(position: 'Demo Tester', company: 'ACME', actions: [a2, a3, a4, a5])
 Job.create(position: 'Apple Holder', company: 'Robin\'s Archery', actions: [a6])
+
+User.create(email: "foo@example.com", password: "1234567890", password_confirmation: "1234567890")

@@ -2,9 +2,9 @@
 
 <form action="index.html" method="post">
   <label for="position">Position</label>
-  {{input valueBinding="position" id="position" name="position"}}
+  {{input value=position id="position" name="position"}}
   <label for="company">Company</label>
-  {{input valueBinding="company" id="company" name="company"}}
+  {{input value=company id="company" name="company"}}
 
   <button class="btn btn-primary" {{action 'create'}}>Submit Job</button>
 </form>
