@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
 gem 'pg'
+gem 'devise' #used with simple-auth-devise on ember front end to authenticate users.
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
