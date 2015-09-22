@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   namespace :api do
     resources :jobs
+    resources :actions
   end
 
   # Example resource route within a namespace:
